@@ -80,12 +80,13 @@ bool possibleBipartition(int n, int** dislikes, int dislikesSize, int* dislikesC
     {
         No *novo = malloc(sizeof(No));
         novo->x = dislikes[i][1];
-        novo->prox = NULL;
-
-        if (adj[dislikes[i][0]] != NULL)
-            novo->prox = adj[dislikes[i][0]];
-
+        novo->prox = adj[dislikes[i][0]];
         adj[dislikes[i][0]] = novo;
+
+        novo = malloc(sizeof(No));
+        novo->x = dislikes[i][0];
+        novo->prox = adj[dislikes[i][1]];
+        adj[dislikes[i][1]] = novo;
     }
 
     return bfs(adj, n + 1);
