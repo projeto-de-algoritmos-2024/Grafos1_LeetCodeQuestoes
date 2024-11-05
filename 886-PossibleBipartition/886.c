@@ -33,7 +33,7 @@ int vazia(Fila *f)
     return f->p == f->u;
 }
 
-int bfs(No **adj, int V)
+int eh_bipartido(No **adj, int V)
 {
     Fila *fila = criar_fila(V);
     int *cor = malloc(V * sizeof(int));
@@ -89,5 +89,5 @@ bool possibleBipartition(int n, int** dislikes, int dislikesSize, int* dislikesC
         adj[dislikes[i][1]] = novo;
     }
 
-    return bfs(adj, n + 1);
+    return eh_bipartido(adj, n + 1);
 }
