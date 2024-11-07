@@ -42,6 +42,9 @@ void insere_aresta(No **adj, int u, int v)
 }
 
 int numBusesToDestination(int** routes, int routesSize, int* routesColSize, int source, int target) {
+    if (source == target)
+        return 0;
+        
     No **adj = calloc(MAX, sizeof(No *));
     
     // Vetores para marcar as paradas e as rotas que já foram visitadas
