@@ -27,6 +27,10 @@ Este projeto tem como objetivo a resolução de exercícios da plataforma de ju�
 
 **Linguagem**: C<br>
 
+## Apresentação
+
+[Link para a apresentação](https://www.youtube.com/watch?v=kbA2Pm5bSfk)
+
 ## Uso
 
 Para testar os códigos, primeiro é necessário acessar a plataforma [LeetCode](https://leetcode.com/). Após encontrar a questão, você pode colar e executar o código na aba Code.
