@@ -5,29 +5,28 @@
 
 ## Alunos
 
-| Matrícula | Aluno                          |
-| --------- | ------------------------------ |
-| 221039497 | Márcio Henrique de Sousa Costa |
-| 221021886 | Cássio Sousa dos Reis          |
+| Matrícula  | Aluno                          |
+| ---------- | ------------------------------ |
+| 22/1039497 | Márcio Henrique de Sousa Costa |
+| 22/1021886 | Cássio Sousa dos Reis          |
 
 ## Sobre
 
-Este projeto tem como objetivo a resolução de exercícios da plataforma [LeetCode](https://leetcode.com/) sobre o conteúdo de Grafos 1.
+Este projeto tem como objetivo a resolução de exercícios da plataforma de juíz online [LeetCode](https://leetcode.com/) sobre o conteúdo de Grafos 1.
 
-## Screenshots
+### Problemas Resolvidos
 
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+| Nome                                  | Dificuldade |
+| ------------------------------------- | ----------- |
+| [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/description/)                  | Médio       |
+| [Shortest Path With Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/description/) | Médio       |
+| [Bus Routes](https://leetcode.com/problems/bus-routes/description/)                            | Difícil     |
+| [Critical Connections In A Network](https://leetcode.com/problems/critical-connections-in-a-network/description/)     | Difícil     |
 
 ## Instalação
 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: C<br>
 
 ## Uso
 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros
-
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+Para testar os códigos, primeiro é necessário acessar a plataforma [LeetCode](https://leetcode.com/). Após encontrar a questão, você pode colar e executar o código na aba Code.
