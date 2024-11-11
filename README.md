@@ -18,10 +18,10 @@ Este projeto tem como objetivo a resolução de exercícios da plataforma de ju�
 
 | Nome                                  | Dificuldade |
 | ------------------------------------- | ----------- |
-| [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/description/)                  | Médio       |
-| [Shortest Path With Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/description/) | Médio       |
-| [Bus Routes](https://leetcode.com/problems/bus-routes/description/)                            | Difícil     |
-| [Critical Connections In A Network](https://leetcode.com/problems/critical-connections-in-a-network/description/)     | Difícil     |
+| [886. Possible Bipartition](https://leetcode.com/problems/possible-bipartition/description/)                  | Médio       |
+| [1129. Shortest Path With Alternating Colors](https://leetcode.com/problems/shortest-path-with-alternating-colors/description/) | Médio       |
+| [815. Bus Routes](https://leetcode.com/problems/bus-routes/description/)                            | Difícil     |
+| [1192. Critical Connections In A Network](https://leetcode.com/problems/critical-connections-in-a-network/description/)     | Difícil     |
 
 ## Instalação
 
